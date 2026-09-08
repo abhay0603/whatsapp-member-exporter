@@ -1,4 +1,4 @@
-# WhatsApp Society Member Exporter
+# WhatsApp Member Exporter
 
 A privacy-focused Chrome extension for exporting visible WhatsApp Web group member information to CSV.
 

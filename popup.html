@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box}body{margin:0;width:360px;font-family:Segoe UI,Arial;background:#f5f7f9;color:#17202a}
+.header{padding:18px;background:#fff;border-bottom:1px solid #e7ebee}.brand{display:flex;gap:11px;align-items:center}
+.logo{width:38px;height:38px;border-radius:12px;background:#128c7e;color:#fff;display:grid;place-items:center;font-weight:800}
+h1{font-size:16px;margin:0}.sub{font-size:11px;color:#7a858e;margin-top:3px}main{padding:14px}
+.card{background:#fff;border:1px solid #e7ebee;border-radius:14px;padding:14px;box-shadow:0 2px 8px #00000008}
+.group{font-size:12px;color:#68737c;margin-bottom:12px}.stats{display:flex;gap:8px;margin-bottom:12px}.stat{flex:1;background:#f7f9fa;border-radius:10px;padding:10px}.stat b{display:block;font-size:20px}.stat span{font-size:10px;color:#7b858d}
+button{width:100%;border:0;border-radius:10px;padding:11px;font-size:13px;font-weight:700;cursor:pointer}
+#start{background:#128c7e;color:#fff}#download{background:#e9f6f3;color:#087568;margin-top:8px}button:disabled{opacity:.45}
+.status{margin-top:11px;font-size:11px;line-height:1.45;color:#68737c;min-height:30px}.preview{margin-top:12px;border:1px solid #e7ebee;border-radius:10px;overflow:hidden}
+.previewHead{padding:8px 10px;background:#f7f9fa;font-size:10px;font-weight:700;color:#68737c}.row{display:grid;grid-template-columns:1.25fr 1fr;gap:8px;padding:8px 10px;border-top:1px solid #f0f2f3;font-size:10px}
+.name{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.phone{color:#66727b}.note{font-size:9px;color:#8b959d;margin-top:10px;line-height:1.4}
+</style></head><body><div class="header"><div class="brand"><div class="logo">WA</div><div><h1>Society Member Exporter</h1><div class="sub">WhatsApp Web • local browser tool</div></div></div></div>
+<main><div class="card"><div class="group" id="group">Ready to scan the open member list</div><div class="stats"><div class="stat"><b id="count">0</b><span>MEMBERS</span></div></div>
+<button id="start">Scan current group</button><button id="download" disabled>Download CSV</button><div class="status" id="status">Open Group Info → View all members first.</div>
+<div class="preview" id="preview" style="display:none"><div class="previewHead">PREVIEW</div><div id="previewRows"></div></div>
+<div class="note">Keep the member panel open while scanning. Only information visible in your browser is read.</div></div></main><script src="popup.js"></script></body></html>

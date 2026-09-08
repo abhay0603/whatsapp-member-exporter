@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "WA Society Member Exporter",
+  "version": "2.0.0",
+  "description": "Export visible WhatsApp Web group members to CSV.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "action": {
+    "default_title": "WA Society Member Exporter",
+    "default_popup": "popup.html"
+  }
+}

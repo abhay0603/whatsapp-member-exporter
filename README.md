@@ -29,7 +29,7 @@ A lightweight, privacy-focused Chrome Extension for legitimate community, societ
 
 ## 📸 At a glance
 
-![WhatsApp Member Exporter workflow guide](assets/workflow-guide.png)
+![WhatsApp Member Exporter workflow guide](assets/workflow-guide.png.png)
 
 <details>
 <summary><strong>What the extension does</strong></summary>
